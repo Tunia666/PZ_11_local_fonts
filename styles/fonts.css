@@ -1,3 +1,17 @@
 /* Добавьте два правила @font-face для normal и bold.
    Файлы шрифтов студент выбирает самостоятельно из легального источника.
    Рекомендуемый формат: WOFF2, резервный: WOFF. */
+@front-face {
+   font-family: "Elastre Font";
+   src:url("../fonts/Elastre-5BINKT-2Cwdth-5D.woff2")
+   font-weight: 400;
+font-style: normal;
+font-display: swap;
+}
+@front-face {
+   font-family: "Elastre Font";
+   src:url("../fonts/Elastre-5BINKT-2Cwdth-5D.woff2")
+   font-weight: 700;
+font-style: normal;
+font-display: swap; 
+}
