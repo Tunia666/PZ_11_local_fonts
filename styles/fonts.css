@@ -3,7 +3,7 @@
    Рекомендуемый формат: WOFF2, резервный: WOFF. */
 @font-face {
 	font-family: "Saira Thin";
-	src: url("../fonts/saira-thin.woff2") format("woff2");
+	src: url("/fonts/saira-thin.woff2") format("woff2");
 	font-weight: 400;
 	font-style: normal;
    font-display: swap;
@@ -11,12 +11,17 @@
 
 @font-face {
 	font-family: "Saira Thin";
-	src: url("../fonts/saira-thin.woff2") format("woff2");
+	src: url("/fonts/saira-thin.woff2") format("woff2");
 	font-weight: 700;
 	font-style: normal;
    font-display: swap;
 }
 
-body {
-	font-family: "Saira Thin", Arial, sans-serif;
+font stack {
+	font-family: "Saira Thin";
+	src: url("/fonts/saira-extracondensed-semibold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+   font-display: swap;
 }
+
